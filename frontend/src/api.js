@@ -1,6 +1,4 @@
-const API_HOST = window.location.hostname || 'localhost'
-const API_BASE = `http://${API_HOST}:4000/api`
-
+const API_BASE = 'https://food-waste-rescue-network.onrender.com/api'
 async function post(path, body, token) {
   try {
     const res = await fetch(API_BASE + path, {
