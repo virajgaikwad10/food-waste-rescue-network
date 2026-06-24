@@ -1,0 +1,20 @@
+{
+  "name": "fwrn-backend",
+  "version": "0.1.0",
+  "description": "Food Waste Rescue Network - backend (MVP scaffold)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "knex": "^2.4.2",
+    "nodemailer": "^6.9.3",
+    "sqlite3": "^5.1.6"
+  }
+}

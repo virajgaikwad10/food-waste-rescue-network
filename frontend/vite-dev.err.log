@@ -1,0 +1,77 @@
+Failed to resolve import "./pages/Dashboard" from "src\App.jsx". Does the file exist?
+[2m8:07:17 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./pages/Dashboard" from "src\App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/VIRAJ/Food Waste Rescue Network/frontend/src/App.jsx[39m:3:22
+[33m  1  |  import React, { useEffect, useState } from "react";
+  2  |  import Login from "./pages/Login";
+  3  |  import Dashboard from "./pages/Dashboard";
+     |                         ^
+  4  |  function App() {
+  5  |    const [token, setToken] = useState(localStorage.getItem("token"));[39m
+      at formatError (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44066:46)
+      at TransformContext.error (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44062:19)
+      at normalizeUrl (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41845:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41999:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41915:13)
+      at async Object.transform (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44356:30)
+      at async loadAndTransform (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:55088:29)
+      at async viteTransformMiddleware (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:64699:32)
+[2m8:07:18 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./pages/Dashboard" from "src\App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/VIRAJ/Food Waste Rescue Network/frontend/src/App.jsx[39m:3:22
+[33m  1  |  import React, { useEffect, useState } from "react";
+  2  |  import Login from "./pages/Login";
+  3  |  import Dashboard from "./pages/Dashboard";
+     |                         ^
+  4  |  function App() {
+  5  |    const [token, setToken] = useState(localStorage.getItem("token"));[39m
+      at formatError (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44066:46)
+      at TransformContext.error (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44062:19)
+      at normalizeUrl (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41845:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41999:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41915:13)
+      at async Object.transform (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44356:30)
+      at async loadAndTransform (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:55088:29)
+      at async viteTransformMiddleware (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:64699:32)
+[2m8:07:53 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./pages/Dashboard" from "src\App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/VIRAJ/Food Waste Rescue Network/frontend/src/App.jsx[39m:3:22
+[33m  1  |  import React, { useEffect, useState } from "react";
+  2  |  import Login from "./pages/Login";
+  3  |  import Dashboard from "./pages/Dashboard";
+     |                         ^
+  4  |  function App() {
+  5  |    const [token, setToken] = useState(localStorage.getItem("token"));[39m
+      at formatError (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44066:46)
+      at TransformContext.error (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44062:19)
+      at normalizeUrl (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41845:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41999:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41915:13)
+      at async Object.transform (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44356:30)
+      at async loadAndTransform (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:55088:29)
+      at async viteTransformMiddleware (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:64699:32)
+[2m8:08:04 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./pages/Dashboard" from "src\App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/VIRAJ/Food Waste Rescue Network/frontend/src/App.jsx[39m:3:22
+[33m  1  |  import React, { useEffect, useState } from "react";
+  2  |  import Login from "./pages/Login";
+  3  |  import Dashboard from "./pages/Dashboard";
+     |                         ^
+  4  |  function App() {
+  5  |    const [token, setToken] = useState(localStorage.getItem("token"));[39m
+      at formatError (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44066:46)
+      at TransformContext.error (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44062:19)
+      at normalizeUrl (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41845:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41999:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41915:13)
+      at async Object.transform (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44356:30)
+      at async loadAndTransform (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:55088:29)
+      at async viteTransformMiddleware (file:///C:/Users/VIRAJ/Food%20Waste%20Rescue%20Network/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:64699:32)

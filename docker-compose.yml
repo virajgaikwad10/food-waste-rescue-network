@@ -1,0 +1,33 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: fwrn
+      POSTGRES_USER: fwrn
+      POSTGRES_PASSWORD: fwrnpass
+    ports:
+      - 5432:5432
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7
+    ports:
+      - 6379:6379
+
+  backend:
+    build: ./platform-backend
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/fwrn
+      SPRING_DATASOURCE_USERNAME: fwrn
+      SPRING_DATASOURCE_PASSWORD: fwrnpass
+      SPRING_REDIS_HOST: redis
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+      - redis
+
+volumes:
+  pgdata:

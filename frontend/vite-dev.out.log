@@ -1,0 +1,21 @@
+
+> fwrn-frontend@0.1.0 dev
+> vite --host 127.0.0.1
+
+
+  [32m[1mVITE[22m v4.5.14[39m  [2mready in [0m[1m226[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m6:46:33 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/Dashboard.jsx[22m
+[2m6:46:56 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/Login.jsx[22m
+[2m6:47:11 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m6:49:32 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/Login.jsx[22m
+[2m6:50:16 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/Dashboard.jsx[22m
+[2m6:52:47 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/Login.jsx[22m
+[2m6:53:09 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/Dashboard.jsx[22m
+[2m6:55:15 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/Login.jsx[22m
+[2m7:00:10 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/api.js[22m
+[2m8:07:13 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/api.js[22m
+[2m8:07:17 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/Dashboard.jsx[22m
+[2m8:09:22 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/Dashboard.jsx[22m
+[2m9:47:47 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/api.js[22m
